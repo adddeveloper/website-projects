@@ -1,0 +1,124 @@
+/* card */
+@font-face {
+    font-family: comfortaa;
+    src: url(/style/font/Comfortaa-VariableFont_wght.ttf);
+}
+
+* {
+    font-family: comfortaa;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.card-holder {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 1rem;
+}
+
+.portfolio-card {
+    background-color: var(--bg);
+    width: fit-content;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 2rem;
+    padding: 2rem 9rem;
+}
+
+.card-image {
+    width: 20rem;
+    height: auto;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20rem;
+    margin: 0 0 0 5rem;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    width: fit-content;
+    margin: 1rem 0;
+}
+
+.card-subtitle {
+    font-size: 1rem;
+    color: #777;
+    margin-bottom: 15px;
+}
+
+.card-description {
+    color: #555;
+    font-size: 1rem;
+    width: fit-content;
+    margin: 1rem 0;
+    text-align: center;
+}
+
+.card-button {
+    display: inline-block;
+    background-color: var(--color);
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+.card-button:hover {
+    background-color: var(--color);
+}
+
+@media (max-width: 1107px){
+    .card-content{
+        margin: 0;
+    }
+}
+
+
+
+/* scroll wheel */
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-button {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 20px 10px;
+    background: #333;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: black;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-corner {
+    background: transparent;
+}
+
+::-webkit-resizer {
+    background: transparent;
+}

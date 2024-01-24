@@ -1,0 +1,44 @@
+{
+    "settings": {
+        "color": "black",
+        "hover": "#fed104",
+        "background": "#3333"
+    },
+    "layout": {
+        "loader": "",
+        "navigation": {
+            "name": "Barber",
+            "links": [
+                ["home", "/"],
+                ["cuts", "/cuts"],
+                ["contact","/contact"]
+            ]
+        },
+        "hero": {
+            "image": "/images/logo.png",
+            "heading": "About Us",
+            "paragraph": "AJ Cuts has been in operation since december 2011.Bbuilt on quality and customer service."
+        },
+        "gallery": {
+            "heading": "Hair Cuts",
+            "images": [
+                ["/images/1.jpg", "description"],
+                ["/images/2.jpg", "description"],
+                ["/images/3.jpg", "description"],
+                ["/images/4.jpg", "description"],
+                ["/images/5.jpg", "description"]
+            ]
+        },
+        "contact": {
+            "email": "email@gmail.com"
+        },
+        "footer": {
+            "copyright": "©2022",
+            "powered": ["adnans.website", "https://adnans.website"],
+            "socials": [
+                ["instagram", "https://instagram.com/"],
+                ["email", "adnanddeveloper@gmail.com"]
+            ]
+        }
+    }
+}

@@ -1,0 +1,52 @@
+.align-items-center{
+    align-items: center;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+.mx-2{
+    margin: 0 2rem;
+}
+
+.justify-content-center{
+    justify-content: center;
+}
+
+form {
+    background-color: transparent;
+    padding: 2rem;
+    border-radius: 0;
+}
+h1 {
+    margin-bottom: 20px;
+}
+input, textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 0;
+    width: 100%;
+}
+.input-group {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.input-group input {
+    width: 48%;
+}
+button {
+    background-color: var(--color);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+    text-transform: uppercase;
+}
